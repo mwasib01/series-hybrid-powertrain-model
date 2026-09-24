@@ -20,7 +20,11 @@ The simulated vehicle follows a **Series Hybrid Architecture** where:
 The project uses a Hyundai i20 class vehicle with a 1.4L naturally aspirated petrol engine.
 
 ---
+## Overall Model Architecture
 
+The complete MATLAB/Simulink hybrid powertrain model consists of the vehicle dynamics model, energy management controller, battery model, SOC estimation, fuel consumption calculation and emission analysis blocks.
+
+![Overall Hybrid Powertrain Model](images/simulink_model_overview.png)
 # Included Files
 
 - `Car_Model_PT_Project_Feedback_Manuscript.slx`
